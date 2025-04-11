@@ -3,9 +3,13 @@ package com.bl.oops;
 import java.util.Scanner;
 
 public class LineComparision {
+	//main method 
 	public static void main(String[] args) {
-		System.out.println("Hii Welcome to Main Branch");
+		//printing welcome message 
+		System.out.println("Hii Welcome to LineComparision program");
 		Scanner sc = new Scanner(System.in);
+		
+		//taking user input to find the length
 		System.out.println("Enter x1 coordinate : ");
 		int x1 = sc.nextInt();
 		System.out.println("Enter x2 coordinate: ");
